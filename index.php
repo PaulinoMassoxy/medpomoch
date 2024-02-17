@@ -1,3 +1,4 @@
+<?php include('config.php'); ?>
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -541,8 +542,8 @@
 
             <a
               class="button"
-              href="https://wa.me/79966763400"
-              target="_blank"
+              href="<?php echo INCLUDE_PATH; ?>patient/index"
+              
             >
               <svg
                 width="24"
